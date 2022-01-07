@@ -1,10 +1,11 @@
 #cs ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Name..................: ADSystemInfo_UDF
-	Description...........: Active Directory SysInfo
-	Documentation.........: https://ss64.com/vb/syntax-userinfo.html
+    Description...........: Active Directory SysInfo
+    Documentation.........: https://ss64.com/vb/syntax-userinfo.html
 
     Author................: exorcistas@github.com
     Modified..............: 2020-02-26
+    Version...............: v1.0
 #ce ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #include-once
 
@@ -34,7 +35,7 @@
 		Syntax.............: see documentation; recommended to use declared global vars
 
 		Return values .....: Success:	string of requested user info from AD
-							 Failure:	False; @error/@extended
+		                     Failure:	False; @error/@extended
 
 		Author ............: exorcistas@github.com
 		Modified...........: 2020-02-26
